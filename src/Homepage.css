@@ -1,0 +1,90 @@
+.homepage {
+    display: flex;
+    height: 100vh;
+    background-color: #f0f4f8;
+  }
+  
+  .left-section {
+    flex: 0.35;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 5%;
+  }
+  
+  .grad-cap {
+    width: 200px;
+    margin-bottom: 20px;
+  }
+  
+  .title {
+    font-size: 3rem;
+    color: #0066cc;
+    margin-bottom: 30px;
+  }
+  
+  .login-buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+  }
+  
+  .login-button {
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .student {
+    background-color: #0066cc;
+    color: white;
+  }
+  
+  .tutor {
+    background-color: white;
+    color: #0066cc;
+    border: 2px solid #0066cc;
+  }
+  
+  .right-section {
+    flex: 0.65;
+    background-color: #6699cc;
+    border-top-left-radius: 50%;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .right-section img {
+    width: 75%;
+    height: 75%;
+    object-fit: contain;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+  }
+  
+  .icons-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    height: 80%;
+    z-index: 2;
+  }
+  
+  .icon {
+    position: absolute;
+    width: 500px;
+  }
+  
+  .laptop { 
+    top: 50%;
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+  }
