@@ -11,7 +11,7 @@ const Homepage = () => {
         <h1 className="title">TutorEase</h1>
         <div className="login-buttons">
           <Link to="/sign" className="login-button student">Login as a Student</Link>
-          <Link to="/sign" className="login-button tutor">Login as a Tutor</Link>
+          <Link to="/tutordashboard" className="login-button tutor">Login as a Tutor</Link>
         </div>
       </div>
       <div className="right-section">
