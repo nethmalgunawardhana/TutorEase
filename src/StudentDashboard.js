@@ -26,9 +26,9 @@ function StudentDashboard() {
       <div className="dashboard-content">
         <div className="profile-section">
           <img src="./user.webp" alt="Profile" className="profile-image" />
-          <h2>Aditha</h2>
-          <p>0760454341</p>
-          <p>adithabuwaneka0@gmail.com</p>
+          <h2>Chamodi</h2>
+          <p>0742114093</p>
+          <p>chamodisandunika2002@gmail.com</p>
         </div>
         
         <form className="profile-form">
